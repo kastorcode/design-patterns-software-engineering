@@ -12,22 +12,28 @@ const name = [
   'Abstract Factory',
   'Adapter',
   'Builder',
+  'Chain of Responsibility',
+  'Command',
   'Decorator',
   'Factory',
   'Observer',
   'Prototype',
-  'Singleton'
+  'Singleton',
+  'Strategy'
 ]
 
 const markdown = [
   join(backend, 'abstract-factory', md),
   join(backend, 'adapter', md),
   join(backend, 'builder', md),
+  join(backend, 'chain-of-responsibility', md),
+  join(backend, 'command', md),
   join(backend, 'decorator', md),
   join(backend, 'factory', md),
   join(backend, 'observer', md),
   join(backend, 'prototype', md),
-  join(backend, 'singleton', md)
+  join(backend, 'singleton', md),
+  join(backend, 'strategy', md)
 ]
 
 
