@@ -14,12 +14,15 @@ const name = [
   'Builder',
   'Chain of Responsibility',
   'Command',
+  'Composite',
   'Decorator',
   'Factory',
   'Observer',
   'Prototype',
   'Singleton',
-  'Strategy'
+  'State',
+  'Strategy',
+  'Template Method'
 ]
 
 const markdown = [
@@ -28,12 +31,15 @@ const markdown = [
   join(backend, 'builder', md),
   join(backend, 'chain-of-responsibility', md),
   join(backend, 'command', md),
+  join(backend, 'composite', md),
   join(backend, 'decorator', md),
   join(backend, 'factory', md),
   join(backend, 'observer', md),
   join(backend, 'prototype', md),
   join(backend, 'singleton', md),
-  join(backend, 'strategy', md)
+  join(backend, 'state', md),
+  join(backend, 'strategy', md),
+  join(backend, 'template-method', md)
 ]
 
 
