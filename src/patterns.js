@@ -3,9 +3,8 @@ import { join, resolve } from 'path'
 
 
 const src = join(resolve(), 'src')
-
 const backend = join(src, 'backend')
-
+const frontend = join(src, 'frontend')
 const md = 'README.md'
 
 const name = [
@@ -17,8 +16,11 @@ const name = [
   'Composite',
   'Decorator',
   'Factory',
+  'MVC',
+  'MVVM',
   'Observer',
   'Prototype',
+  'Proxy',
   'Singleton',
   'State',
   'Strategy',
@@ -34,8 +36,11 @@ const markdown = [
   join(backend, 'composite', md),
   join(backend, 'decorator', md),
   join(backend, 'factory', md),
+  join(frontend, 'mvc', md),
+  join(frontend, 'mvvm', md),
   join(backend, 'observer', md),
   join(backend, 'prototype', md),
+  join(backend, 'proxy', md),
   join(backend, 'singleton', md),
   join(backend, 'state', md),
   join(backend, 'strategy', md),
