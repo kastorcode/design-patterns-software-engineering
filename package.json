@@ -1,6 +1,6 @@
 {
   "name": "design-patterns-software-engineering",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "description": "Studies on design patterns and software engineering.",
   "main": "./src/index.js",
   "scripts": {
