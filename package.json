@@ -1,9 +1,10 @@
 {
   "name": "design-patterns-software-engineering",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Studies on design patterns and software engineering.",
   "main": "./src/index.js",
   "scripts": {
+    "git": "git add . && git commit && git push",
     "start": "clear && node --experimental-specifier-resolution=node src/index.js"
   },
   "keywords": [],
