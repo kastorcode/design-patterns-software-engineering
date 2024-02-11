@@ -29,8 +29,10 @@ const name = [
   'ORM',
   'Prototype',
   'Proxy',
+  'Repository',
   'Singleton',
   'SOLID',
+  'SPA',
   'State',
   'Strategy',
   'Template Method'
@@ -58,8 +60,10 @@ const markdown = [
   join(frontend, 'orm', md),
   join(backend, 'prototype', md),
   join(backend, 'proxy', md),
+  join(frontend, 'repository', md),
   join(backend, 'singleton', md),
   join(frontend, 'solid', md),
+  join(frontend, 'spa', md),
   join(backend, 'state', md),
   join(backend, 'strategy', md),
   join(backend, 'template-method', md)
