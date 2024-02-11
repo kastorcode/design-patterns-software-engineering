@@ -33,9 +33,11 @@ const name = [
   'Singleton',
   'SOLID',
   'SPA',
+  'SSR',
   'State',
   'Strategy',
-  'Template Method'
+  'Template Method',
+  'WebSocket'
 ]
 
 const markdown = [
@@ -64,9 +66,11 @@ const markdown = [
   join(backend, 'singleton', md),
   join(frontend, 'solid', md),
   join(frontend, 'spa', md),
+  join(frontend, 'ssr', md),
   join(backend, 'state', md),
   join(backend, 'strategy', md),
-  join(backend, 'template-method', md)
+  join(backend, 'template-method', md),
+  join(frontend, 'websocket', md)
 ]
 
 

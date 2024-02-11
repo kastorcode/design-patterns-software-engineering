@@ -24,7 +24,7 @@ class CourseComposite {
   }
   print () {
     console.log(`***** ${this.name} - $${this.getPrice()} *****`.toUpperCase())
-    this.composite.forEach(item => item.print())
+    this.composite.forEach(course => course.print())
     console.log('***********************************')
   }
 }
@@ -33,6 +33,7 @@ const nodejs = new Course({ name: 'NodeJS', price: 70 })
 const adonisjs = new Course({ name: 'AdonisJS', price: 60 })
 const reactjs = new Course({ name: 'ReactJS', price: 80 })
 const reactnative = new Course({ name: 'React Native', price: 90 })
+
 const backendCourses =
   new CourseComposite({ name: 'Back-end Courses', composite: [nodejs, adonisjs] })
 const frontendCourses =
